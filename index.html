@@ -1,0 +1,626 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome to VThePeople</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="base.css">
+</head>
+
+<body>
+    <header class="sticky-top">
+        <nav class="navbar navbar-dark navbar-expand-lg bg-white p-0">
+            <div class="container-fluid p-2 p-md-3 px-lg-5 py-lg-0">
+                <a class="navbar-brand p-0" href="./index.html">
+                    <img src="images/VThePeopleLogoNav.svg" alt="" height="40"
+                        class="d-none d-lg-inline-block align-text-center">
+                    <img src="images/VThePeopleLogoNav.svg" alt="" height="35"
+                        class="d-none d-sm-inline-block d-lg-none align-text-center">
+                    <img src="images/VThePeopleLogoNav.svg" alt="" height="30"
+                        class="d-inline-block d-sm-none align-text-center">
+                    VThePeople</a>
+                <button class="navbar-toggler border-0 rounded-0 shadow-none p-0" type="button"
+                    data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon custom-toggler"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <button type="button" class="btn-close text-reset ms-auto" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body p-0">
+                        <div class="navbar-nav justify-content-end flex-grow-1">
+                            <a class="nav-link  d-flex d-lg-none active" href="./index.html">Home</a>
+                            <a href="./about.html" class="nav-link d-flex d-lg-none">About</a>
+                            <div class="dropdown">
+                                <a class="nav-link d-flex d-lg-none dropdown-toggle" href="" role="button"
+                                    id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Features
+                                </a>
+
+                                <ul class="dropdown-menu rounded-0 m-0 ps-4" aria-labelledby="dropdownMenuLink">
+                                    <li><a class="dropdown-item" href="./grow-your-business.html">Grow your business</a></li>
+                                    <li><a class="dropdown-item" href="/management.html">Management</a></li>
+                                </ul>
+                            </div>
+                            <a class="nav-link d-flex d-lg-none" href="./how-it-works.html">How it works</a>
+                            <a class="nav-link d-flex d-lg-none" href="./contact-us.html">Contact us</a>
+
+
+                            <a class="nav-link nav-link-lg d-none d-lg-flex active" aria-current="page"
+                                href="./index.html">Home</a>
+                            <a class="nav-link nav-link-lg d-none d-lg-flex" href="./about.html">About</a>
+                            <div class="dropdown">
+                                <a class="nav-link nav-link-lg d-none d-lg-flex dropdown-toggle" href="" role="button"
+                                    id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Features
+                                </a>
+
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <li><a class="dropdown-item" href="./grow-your-business.html">Grow your business</a></li>
+                                    <li><a class="dropdown-item" href="./management.html">Management</a></li>
+                                </ul>
+                            </div>
+                            <a class="nav-link nav-link-lg d-none d-lg-flex" href="./how-it-works.html">How it works</a>
+                            <a class="nav-link nav-link-lg d-none d-lg-flex" href="./contact-us.html">Contact us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="fs-poppins">
+        <section class="hero-bg-image" style="background-image: url('images/hero.png');">
+            <div class="hero-bg-gradient position-relative overflow-hidden">
+                <div class="container">
+                    <div class="row row-cols-1 align-items-center justify-content-center hero-height">
+                        <div class="col">
+                            <div class="d-flex flex-column gap-3">
+                                <div class="col-11 col-md-10 col-md-9 col-lg-8 col-xl-7">
+                                    <h1 class="display-4 fw-bold text-white m-0">Simplify your various activities and needs
+                                    </h1>
+                                </div>
+                                <div class="col-10 col-md-9 col-lg-7 col-xl-5 text-white lead fs-3">
+                                    A new way to grow and scale your interests
+                                    in
+                                    no time at all…
+                                </div>
+                                <div class="col">
+                                    <div class="d-flex gap-3">
+                                        <a class="btn btn-light text-teal border-teal" href="./about.html"
+                                            role="button">More
+                                            details</a>
+                                        <a class="btn btn-light text-white border-white bg-transparent" href=""
+                                            role="button">Get apps</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img src="images/hero-lg-img.png" alt=""
+                    class="d-none d-lg-block position-absolute top-50 end-0 translate-middle-y img-fluid me-5"
+                    style="width: 30%;">
+
+                <img src="images/Group 126.png" alt=""
+                    class="d-none d-md-block d-lg-none position-absolute top-50 end-0 translate-middle-y img-fluid z-0 pe-3"
+                    style="width: 25%;">
+
+                <img src="images/Group 126.png" alt=""
+                    class="d-block d-md-none position-absolute top-50 start-100 translate-middle img-fluid z-0"
+                    style="width: 30%;">
+            </div>
+        </section>
+
+        <section class="py-10">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 gy-5">
+                    <div class="col">
+                        <div class="row row-cols-2 row-cols-md-1 g-3">
+                            <div class="d-block d-md-none col-2">
+                                <img src="images/database.png" class="img-fluid w-100" alt="...">
+                            </div>
+                            <div class="d-none d-md-block col">
+                                <img src="images/database.png" class="img-fluid" style="width: 15%;" alt="...">
+                            </div>
+                            <div class="col-10 col-md-12">
+                                <h3 class="fw-bold fs-3">Multiple Uses</h3>
+                                <div class="text-secondary lead fs-6">
+                                    VthePeople offers you multiple use cases whatever your needs might be.
+                                    Experience life on easy mode like you’ve never done before.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="row row-cols-2 row-cols-md-1 g-3">
+                            <div class="d-block d-md-none col-2">
+                                <img src="images/favorite.png" class="img-fluid w-100" alt="...">
+                            </div>
+                            <div class="d-none d-md-block col">
+                                <img src="images/favorite.png" class="img-fluid" style="width: 15%;" alt="...">
+                            </div>
+                            <div class="col-10 col-md-12">
+                                <h3 class="fw-bold fs-3">User Friendly</h3>
+                                <div class="text-secondary lead fs-6">
+                                    Simple, easy-to-use interface for your use when you need it. Navigate to any
+                                    features you want without difficulty.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="row row-cols-2 row-cols-md-1 g-3">
+                            <div class="d-block d-md-none col-2">
+                                <img src="images/user-group.png" class="img-fluid w-100" alt="...">
+                            </div>
+                            <div class="d-none d-md-block col">
+                                <img src="images/user-group.png" class="img-fluid" style="width: 15%;" alt="...">
+                            </div>
+                            <div class="col-10 col-md-12">
+                                <h3 class="fw-bold fs-3">Social Connect</h3>
+                                <div class="text-secondary lead fs-6">
+                                    Get in touch with other users. Share your experiences and get the most out of your
+                                    interactions.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <section class="bg-silver">
+            <div class="container py-10 position-relative overflow-hidden">
+                <div class="row row-cols-1 g-3">
+                    <div class="col col-lg-8 col-xl-6">
+                        <div class="vstack gap-3">
+                            <h2 class="display-6 fw-bold">ABOUT THE APP</h2>
+                            <div class="text-secondary fs-auto">
+                                <strong class="text-teal">VThePeople</strong> is designed to serve your
+                                interests like no other platform will do.
+                                If you’ve looking for way to scale and grow your business or get more value from
+                                your activities in the shortest time possible.
+                            </div>
+                            <div class="text-secondary fs-auto">
+                                <strong class="text-teal">VThePeople</strong> is highly recommended. We believe
+                                that human efforts in all endeavors can be simplified to make living efficient
+                                and simple.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="row row-cols-1 row-cols-md-2">
+                            <div class="col col-md-5">
+                                <div class="vstack gap-3">
+                                    <div class="d-block d-md-none">
+                                        <div class="w-75 mx-auto">
+                                            <img src="images/Group 141.png" width="100%" alt=""
+                                                class="img-fluid mx-auto">
+                                        </div>
+                                    </div>
+                                    <div class="vstack mt-3 mt-md-5">
+                                        <h5 class="text-teal fw-bold">GOAL</h5>
+                                        <div class="text-secondary fs-auto">
+                                            We are committed to helping individuals, small businesses and brands to get
+                                            more out of their regular processes and daily activities.
+                                        </div>
+                                    </div>
+                                    <div class="vstack mt-3 mt-md-5">
+                                        <h5 class="text-teal fw-bold">PLATFORM</h5>
+                                        <div class="text-secondary fs-auto">
+                                            Simply visit the app store to download the <strong
+                                                class="text-teal">VThePeople</strong> mobile app and get
+                                            started!
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <a class="btn btn-light text-teal border-teal" href="#" role="button">Get
+                                            apps</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-none d-md-block position-absolute bottom-0 end-0 z-1" style="width: 45%;">
+                    <img src="images/Group 141.png" width="100%" alt="" class="img-fluid">
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container py-10">
+                <div class="row row-cols-1 gy-5">
+                    <div class="col col-lg-8 col-xl-6">
+                        <div class="vstack gap-3">
+                            <h2 class="display-6 fw-bold">FEATURES</h2>
+                            <div class="text-secondary fs-auto">
+                                Using <strong class="text-teal fw-bold">VThePeople</strong> is a guaranteed way to get
+                                more out of your business and life
+                                interests. Feel the ease that comes with leveraging a secure platform that simplifies
+                                every process you’re involved in.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="row gy-5 gx-md-5">
+                            <div class="col col-12 col-md-6 col-lg-5 col-xl-4">
+                                <div class="card border-0 me-md-3">
+                                    <img src="images/image 31.png" class="card-img-top" alt="...">
+                                    <div class="card-body p-0 mt-5">
+                                        <h5 class="card-title fw-bold fs-4 text-center mb-3">Grow your business</h5>
+                                        <p class="text-justify text-secondary" style="text-align: justify;">Lorem ipsum
+                                            dolor sit amet
+                                            consectetur. Habitant tellus
+                                            aliquet magna viverra. Augue montes viverra aliquet quam faucibus mauris
+                                            nunc mattis est. Augue volutpat parturient et feugiat praesent massa nec.
+                                            Diam pharetra congue ornare sit euismod egestas. Et aliquet fermentum eget
+                                            semper eleifend in. Ipsum in amet lorem tristique dolor urna. At dictum enim
+                                            malesuada blandit varius.
+                                        </p>
+                                    </div>
+                                    <a class="btn btn-light text-teal border-teal" href="#" role="button">Learn more</a>
+                                </div>
+                            </div>
+                            <div class="col col-md-6 col-lg-5 col-xl-4">
+                                <div class="card border-0 ms-md-3">
+                                    <img src="images/image 32.png" class="card-img-top" alt="...">
+                                    <div class="card-body p-0 mt-5">
+                                        <h5 class="card-title fw-bold fs-4 text-center mb-3">Grow your business</h5>
+                                        <p class="text-justify text-secondary" style="text-align: justify;">Lorem ipsum
+                                            dolor sit amet
+                                            consectetur. Habitant tellus
+                                            aliquet magna viverra. Augue montes viverra aliquet quam faucibus mauris
+                                            nunc mattis est. Augue volutpat parturient et feugiat praesent massa nec.
+                                            Diam pharetra congue ornare sit euismod egestas. Et aliquet fermentum eget
+                                            semper eleifend in. Ipsum in amet lorem tristique dolor urna. At dictum enim
+                                            malesuada blandit varius.
+                                        </p>
+                                    </div>
+                                    <a class="btn btn-light text-teal border-teal" href="#" role="button">Learn more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <section class="bg-silver">
+            <div class="container py-10">
+                <div class="row row-cols-1 gy-5">
+                    <div class="col col-lg-8 col-xl-6">
+                        <div class="vstack gap-3 mb-md-5">
+                            <h2 class="display-6 fw-bold">HOW DOES THIS APP WORKS</h2>
+                            <div class="text-secondary fs-auto">
+                                Using <strong class="text-teal fw-bold">VThePeople</strong> is easy and straightforward
+                                even for a new user. To get started right
+                                away, here’s how:
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 g-md-5 align-items-center">
+                            <div class="d-block d-md-none col mb-5">
+                                <div class="row justify-content-center">
+                                    <img src="images/Group 146.png" style="width: 30%;" class="img-fluid" alt="...">
+                                </div>
+                            </div>
+                            <div class="col col-md-7 col-lg-5">
+                                <div class="vstack gap-4 gap-lg-5">
+                                    <div class="d-flex flex-column gap-2">
+                                        <div class="d-flex flex-lg-column gap-3">
+                                            <div class="me-md-0 ms-md-auto">
+                                                <img src="images/1.png" width="40px" height="40px" alt="">
+                                            </div>
+                                            <h5 class="text-teal h6 fw-bold text-md-end m-0">Login, or
+                                                register
+                                                if you still
+                                                don't
+                                                have an account</h5>
+                                        </div>
+                                        <div class="text-secondary fs-6 text-start text-md-end">Download the VThePeople
+                                            on your
+                                            phone’s app store. Register and login right
+                                            away.</div>
+                                    </div>
+                                    <div class="d-flex flex-column gap-2">
+                                        <div class="d-flex flex-lg-column gap-3">
+                                            <div class="me-md-0 ms-md-auto">
+                                                <img src="images/2.png" width="40px" height="40px" alt="">
+                                            </div>
+                                            <h5 class="text-teal h6 fw-bold text-start text-md-end m-0">Login, or
+                                                register
+                                                if you still
+                                                Choose a menu according to your needs</h5>
+                                        </div>
+                                        <div class="text-secondary fs-6 text-start text-md-end">Download the VThePeople
+                                            on your
+                                            Select a menu that fits your needs the most to continue with the onboarding
+                                            process.</div>
+                                    </div>
+                                    <div class="d-flex d-lg-none flex-column gap-2">
+                                        <div class="d-flex flex-lg-column gap-3">
+                                            <div class="me-md-0 ms-md-auto">
+                                                <img src="images/3.png" width="40px" height="40px" alt="">
+                                            </div>
+                                            <h5 class="text-teal h6 fw-bold text-start text-md-end m-0">Create a
+                                                service or
+                                                complex
+                                                according to your needs</h5>
+                                        </div>
+                                        <div class="text-secondary fs-6 text-start text-md-end">Choose services or
+                                            interests that fit
+                                            your needs. By doing this, you personalize your profile to match your
+                                            interests.</div>
+                                    </div>
+                                    <div class="d-flex d-lg-none flex-column gap-2">
+                                        <div class="d-flex flex-lg-column gap-3">
+                                            <div class="me-md-0 ms-md-auto">
+                                                <img src="images/4.png" width="40px" height="40px" alt="">
+                                            </div>
+                                            <h5 class="text-teal h6 fw-bold text-start text-md-end m-0">Enjoy the
+                                                convenience of using
+                                                multiple uses through a single application</h5>
+                                        </div>
+                                        <div class="text-secondary fs-6 text-start text-md-end">Complete your sign-up
+                                            process, become
+                                            a user and experience the beauty of a seamless solution that grows and
+                                            scales your business and life activities.</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-none d-md-block col col-md-5 col-lg-2">
+                                <img src="images/Group 146.png" width="100%" class="img-fluid" alt="...">
+                            </div>
+                            <div class="d-none d-lg-block col col-md-7 col-lg-5">
+                                <div class="vstack gap-3 gap-lg-5">
+                                    <div class="d-flex flex-column gap-3">
+                                        <div class="">
+                                            <img src="images/3.png" width="40px" height="40px" alt="">
+                                        </div>
+                                        <h5 class="text-teal fw-bold h6 m-0">Create a service or complex according to
+                                            your needs</h5>
+                                        <div class="text-secondary fs-6">Choose services or interests that fit your
+                                            needs. By doing this, you personalize your profile to match your interests.
+                                        </div>
+                                    </div>
+                                    <div class="d-flex flex-column gap-3">
+                                        <div class="me-auto">
+                                            <img src="images/4.png" width="40px" height="40px" alt="">
+                                        </div>
+                                        <h5 class="text-teal fw-bold h6 m-0">Enjoy the convenience of using multiple
+                                            uses through a single application</h5>
+                                        <div class="text-secondary fs-6">Complete your sign-up process, become a user
+                                            and experience the beauty of a seamless solution that grows and scales your
+                                            business and life activities.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container py-10">
+                <div class="row row-cols-1 gy-5">
+                    <div class="col col-lg-8 col-xl-6">
+                        <div class="vstack gap-3">
+                            <h2 class="display-6 fw-bold">FREQUENTLY ASKED QUESTION</h2>
+                            <div class="text-secondary fs-auto">
+                                In our experience, here are the most common questions you have and their answers:
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-lg-10 col-xl-8">
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item border-0">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed fw-bold" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                        aria-expanded="false" aria-controls="flush-collapseOne">
+                                        Do I have to pay to download VThePeopLe?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body text-secondary"><strong
+                                            class="text-teal">VThePeople</strong> is
+                                        completely free to
+                                        download from the app
+                                        store. In-app features contain some premium content that may require token
+                                        payments to use them.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item border-0">
+                                <h2 class="accordion-header mt-3" id="flush-headingTwo">
+                                    <button class="accordion-button collapsed fw-bold" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
+                                        aria-expanded="false" aria-controls="flush-collapseTwo">
+                                        How soon can I start using the app?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body text-secondary">You can start using the app as soon as
+                                        you complete the
+                                        registration process.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item border-0">
+                                <h2 class="accordion-header mt-3" id="flush-headingThree">
+                                    <button class="accordion-button collapsed fw-bold" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                        aria-expanded="false" aria-controls="flush-collapseThree">
+                                        Will this app work for my small business?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body text-secondary">Yes, <strong
+                                            class="text-teal">VThePeople</strong> app
+                                        is designed exactly for this
+                                        purpose. To scale and grow your business to receive more orders without a good
+                                        deal of man-hours, VThePeople gives you an audience of ready-to-buy customers
+                                        who need your products.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item border-0">
+                                <h2 class="accordion-header mt-3" id="flush-headingFour">
+                                    <button class="accordion-button collapsed fw-bold" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseFour"
+                                        aria-expanded="false" aria-controls="flush-collapseFour">
+                                        Are the updates on the app in real time?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseFour" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body text-secondary">Any update notifications you receive on
+                                        the app are in
+                                        real time. Live information updates are sent to users who are live on the app to
+                                        enable them take action on any interest offers.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-lg-10 col-xl-8">
+                        <div class="vstack gap-3">
+                            <h4 class="text-teal fw-bold fs-3 m-0">
+                                Didn’t find an answer?
+                            </h4>
+                            <div class="text-secondary fs-auto">
+                                We appreciate your interest in <strong class="text-teal">VThePeople</strong> app.
+                                Whether you’re looking to grow your small
+                                business, simplify certain aspects of your routine activities or simply get more out of
+                                life, using <strong class="text-teal">VThePeople</strong> will make it all seamless. Our
+                                team is available to take your
+                                questions, if for some reason, you have questions.
+                            </div>
+                            <div>
+                                <a class="btn btn-light text-teal border-teal" href="#" role="button">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container px-3 px-md-0 my-3">
+                <div class="col p-3 p-md-5 rounded-4 rounded-md-5 position-relative"
+                    style="background: linear-gradient(180deg, #267A96 0%, rgba(38, 122, 150, 0.7) 74.49%);">
+                    <div class="row row-cols-1 g-3 g-md-4 gx-md-5 text-white">
+                        <div class="col col-md-8 fw-bold fs-2">
+                            Download VThePeople
+                        </div>
+                        <div class="col col-md-8 col-lg-6 fs-thin">
+                            To get started with this mobile application, the first step is to visit the app store on
+                            Google Play or App Store. The VThePeople app is fully designed and efficient to work on your
+                            mobile device. Get started today to begin your journey to greater business success and
+                            improved living.
+                        </div>
+                        <div class="col">
+                            <div class="hstack gap-3">
+                                <a href="">
+                                    <img src="images/GooglePlayIcon.png" class="img-fluid" alt="">
+                                </a>
+                                <a href="">
+                                    <img src="images/AppStoreIcon.png" class="img-fluid" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-none d-md-block position-absolute bottom-0 end-0 z-1" style="width: 35%;">
+                        <img src="images/Group 138.png" alt="" width="100%" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="pt-10">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-2 gx-md-5 gy-5">
+                <div class="col col-md-5 col-lg-4">
+                    <div class="vstack gap-2">
+                        <div class="d-block d-md-none text-teal fw-bold fs-min">
+                            <img src="images/VThePeopleLogoNav.svg" alt="" height="30px"
+                                class="align-text-center">
+                            VThePeole
+                        </div>
+                        <div class="d-none d-md-block text-teal fw-bold fs-5">
+                            <img src="images/VThePeopleLogoNav.svg" alt="" height="40px"
+                                class="align-text-center">
+                            VThePeole
+                        </div>
+                        <div class="text-secondary fs-min">
+                            Follow VThePeople on our social media. Share your experience, join our VThePeople
+                            community
+                            and get the most out of VThePeople.
+                        </div>
+                        <div class="hstack gap-3">
+                            <a href=""><img src="images/Logo Footer 3.svg" alt=""></a>
+                            <a href=""><img src="images/Logo Footer 4.svg" alt=""></a>
+                            <a href=""><img src="images/Logo Footer 5.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-md-7 col-lg-6 col-xl-5 ms-md-auto">
+                    <div class="row row-cols-3 g-3">
+                        <div class="col-auto">
+                            <div class="vstack gap-2 gx-md-5">
+                                <div class="text-teal fw-bold fs-min">MOBILE APPS</div>
+                                <a href="" class="text-secondary text-decoration-none fs-min">About</a>
+                                <a href="" class="text-secondary text-decoration-none fs-min">Features</a>
+                                <a href="" class="text-secondary text-decoration-none fs-min">How it works</a>
+                                <a href="" class="text-secondary text-decoration-none fs-min">Contact us</a>
+                            </div>
+                        </div>
+                        <div class="col-auto mx-auto">
+                            <div class="vstack gap-2">
+                                <div class="text-teal fw-bold fs-min">HELPS</div>
+                                <a href="" class="text-secondary text-decoration-none fs-min">Customer
+                                    Support</a>
+                                <a href="" class="text-secondary text-decoration-none fs-min">Terms &
+                                    Conditions</a>
+                                <a href="" class="text-secondary text-decoration-none fs-min">Privacy Policy</a>
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <div class="vstack gap-2">
+                                <div class="text-teal fw-bold fs-min">APPS</div>
+                                <a href="" class="text-secondary text-decoration-none fs-min">Google Play</a>
+                                <a href="" class="text-secondary text-decoration-none fs-min">App Store</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col">
+                    <div class="d-flex align-items-center justify-content-center border-top py-3">
+                        <div class="text-secondary fs-min">© Copyright 2023, All Rights Reserved
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
