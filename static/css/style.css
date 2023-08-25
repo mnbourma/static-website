@@ -52,7 +52,7 @@
 
 .btn:hover {
     background-color: #267A96;
-    border: 1px solid #267A96;
+    border: 0;
     color: white;
 }
 
@@ -66,6 +66,10 @@
 }
 
 .nav-link:hover {
+    background-color: rgba(38, 122, 150, 0.6);
+}
+
+.nav-link:focus-within {
     background-color: rgba(38, 122, 150, 0.6);
     color: white;
 }
